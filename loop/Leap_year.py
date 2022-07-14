@@ -2,8 +2,7 @@
 program to find leap year or not
 '''
 Year = int(input("Enter the Year"))
-if((Year % 400 == 0) or  
-     (Year % 100 == 0) and  
+if((Year % 100 != 0) and  
      (Year % 4 == 0)):   
     print("Given Year is a leap Year");  
   # Else it is not a leap year  

@@ -1,5 +1,5 @@
 '''
-calculating gross salary
+calculating marks and percentage
 '''
 ENGISH = int(input("Enter the makrs of english: "))
 HINDI = int(input("Enter the makrs of hindi: "))

@@ -1,10 +1,14 @@
 '''
 program to find leap year or not
 '''
-Year = int(input("Enter the Year"))
-if((Year % 100 != 0) and  
-     (Year % 4 == 0)):   
-    print("Given Year is a leap Year")
-  # Else it is not a leap year  
-else:  
-    print ("Given Year is not a leap Year")  
+year = int(input('Enter year='))
+if (year % 4) == 0:
+    if (year % 100) == 0:
+        if (year % 400) == 0:
+            print(year,'is a leap year')
+        else:
+            print(year,'is not a leap year')
+    else:
+        print(year,'is a leap year')
+else:
+    print(year,'is not a leap year')

@@ -12,6 +12,6 @@ for i in range(0,number_1):
      positive = positive+1
     else:
      zero = zero+1 
-print(positive," of nagative number")
-print(negative," of Positive number")
-print(zero," of Zero number")
+print(positive," nagative number")
+print(negative," Positive number")
+print(zero," Zero number")

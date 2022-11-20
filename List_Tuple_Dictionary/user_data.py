@@ -14,5 +14,7 @@ for i in range(0,2):
         print("Welcome",persons[i])
         city = input("Choose a city: ")
         cities.append(city)
-    print("City selected by",persons[i],"is",city)
+
 print("\nCities selected by adults:", cities)
+for i in range(len(cities)):
+    print("City selected by",persons[i],"is",cities[i])
